@@ -36,7 +36,7 @@ def main():
         print(emp)
 
     # Get user input for sorting parameter
-    print("\nSorting Parameters: 1. Age, 2. Name, 3. Salary")
+    print("\nSorting Parameters: 1. Age, 2. Name, 3. Salary")#changed line
     sorting_key = int(input("\nChoose sorting parameter (1. Age, 2. Name, 3. Salary): "))
 
     try:
