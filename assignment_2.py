@@ -42,6 +42,7 @@ def main():
     try:
         # Sort and print the sorted employee data
         sorted_employees = sort_employees(employees, sorting_key)
+        # print(sorted_employees)
         print("\nSorted Employee Data:")
         for emp in sorted_employees:
             print(emp)
